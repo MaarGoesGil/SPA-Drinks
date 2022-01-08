@@ -1,0 +1,11 @@
+export const ALL_DRINKS = "ALL_DRINKS";
+export const SEARCH_NAME = "SEARCH_NAME";
+export const SEARCH_ID = "SEARCH_ID";
+export const WITHOUT_ALCOHOLE = "WITHOUT_ALCOHOLE";
+export const WITH_ALCOHOLE = "WITH_ALCOHOLE";
+export const ORDINARY_DRINKS = "ORDINARY_DRINKS";
+export const COCKTAIL = "COCKTAIL";
+export const COCKTAIL_GLASS = "COCKTAIL_GLASS";
+export const CHAMPAGNE_FLUTE = "CHAMPAGNE_FLUTE";
+export const SORT_BY_NAME_ASC = "SORT_BY_NAME_ASC";
+export const SORT_BY_NAME_DES = "SORT_BY_NAME_DES";
