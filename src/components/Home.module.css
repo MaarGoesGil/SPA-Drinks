@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: column;
+  align-items: center;
+  text-align: center;
+  color : gray;
+  margin: auto;
+  height: 90vh;
+  width: 100vw;
+  background-image: url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
