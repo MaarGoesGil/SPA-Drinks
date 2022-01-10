@@ -1,3 +1,4 @@
+import './App.css';
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { getAllDrinks } from './redux/action';
@@ -7,6 +8,7 @@ import Drinks from './components/Drinks.jsx';
 import Drink from './components/Drink.jsx';
 import About from './components/About.jsx';
 import Nav from './components/Nav.jsx';
+import Search from './components/Search.jsx';
 
 function App() {
   const dispatch = useDispatch();
@@ -19,6 +21,7 @@ function App() {
     <>
     <div className='NavBar'>
     <Nav />
+    <Search />
     </div>
       <Routes>
         <Route path="/" element={<Home />} />
