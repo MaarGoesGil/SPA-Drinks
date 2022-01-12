@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+  padding: 0;
+  color: black;
+}
+body{
+background-image: url('./images/tb.jpg');
+background-attachment: fixed;
+background-size: cover ;
+background-position: center;
+overflow: scroll;
+background-color: #1a1a1a;
+width: 100vw;
+}
